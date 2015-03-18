@@ -4,7 +4,7 @@ Guides
 Guides for getting things done, programming well, and programming in style.
 
 * [Protocol](/protocol)
-  * [Git](/protocol/git)
+  * [Git](protocol/git)
   * [Rails](/protocol/rails)
   * [iOS](/protocol/ios)
   * [Open Source](/protocol/open-source)
