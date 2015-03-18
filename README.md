@@ -3,14 +3,14 @@ Guides
 
 Guides for getting things done, programming well, and programming in style.
 
-* [Protocol](/protocol)
+* [Protocol](protocol)
   * [Git](protocol/git)
-  * [Rails](/protocol/rails)
-  * [iOS](/protocol/ios)
-  * [Open Source](/protocol/open-source)
-* [Code Review](/code-review)
-* [Best Practices](/best-practices)
-* [Style](/style)
+  * [Rails](protocol/rails)
+  * [iOS](protocol/ios)
+  * [Open Source](protocol/open-source)
+* [Code Review](code-review)
+* [Best Practices](best-practices)
+* [Style](style)
 
 High level guidelines:
 
@@ -34,7 +34,6 @@ Please read the [contribution guidelines] before submitting a pull request.
 In particular: **if you have commit access, please don't merge changes without
 waiting a week for everybody to leave feedback**.
 
-[contribution guidelines]: /CONTRIBUTING.md
 
 Credits
 -------

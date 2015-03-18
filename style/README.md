@@ -12,7 +12,6 @@ style guide violations.
 In addition to the general guidelines below, we also have the following more
 detailed, language/framework-specific style guides:
 
-* [Android](android)
 * [Backbone](backbone)
 * [CoffeeScript](coffeescript)
 * [Ember.js](ember)
