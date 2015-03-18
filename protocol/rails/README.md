@@ -6,12 +6,15 @@ A guide for writing great web apps.
 Set Up Laptop
 -------------
 
+TODO: need to add carlos basecamp how its done
 Set up your laptop with [this script](https://github.com/thoughtbot/laptop)
+
 and [these dotfiles](https://github.com/thoughtbot/dotfiles).
 
 Create App
 ----------
 
+TODO: we dont use suspenders
 Get Suspenders.
 
     gem install suspenders
@@ -20,47 +23,22 @@ Create the app.
 
     suspenders app --heroku true --github organization/app
 
-Set Up App
-----------
-
-Get the code.
-
-    git clone git@github.com:organization/app.git
-
-Set up the app's dependencies.
-
-    cd project
-    ./bin/setup
-
-Use [Heroku config](https://github.com/ddollar/heroku-config) to get `ENV`
-variables.
-
-    heroku config:pull --remote staging
-
-Delete extra lines in `.env`, leaving only those needed for app to function
-properly. For example: `BRAINTREE_MERCHANT_ID` and `S3_SECRET`.
-
-Use [Foreman](https://github.com/ddollar/foreman) to run the app locally.
-
-    foreman start
-
-It uses your `.env` file and `Procfile` to run processes
 like Heroku's [Cedar](https://devcenter.heroku.com/articles/cedar/) stack.
 
 Git Protocol
 ------------
 
-Follow the normal [Git Protocol](/protocol/git).
+Follow the normal [Git Protocol](protocol/git).
 
 Product Review
 --------------
 
-Follow the normal [Product Review protocol](/protocol/product-review).
+Follow the normal [Product Review protocol](protocol/product-review).
 
 Code Review
 -----------
 
-Follow the normal [Code Review guidelines](/code-review). When reviewing others'
+Follow the normal [Code Review guidelines](code-review). When reviewing others'
 Rails work, look in particular for:
 
 * Review data integrity closely, such as migrations that make irreversible
@@ -104,21 +82,11 @@ If necessary, run migrations and restart the dynos.
 Test the feature in browser.
 
 Deploy to production.
+TODO: point to basecamp
 
-    git fetch production
-    git log production/master..master
-    git diff --stat production/master
-    heroku config:add NEW_VARIABLE=value --remote production
-    git push production
-    heroku run rake db:migrate --remote production
-    heroku restart --remote production
-    watch heroku ps --remote production
-
-Watch logs and metrics dashboards.
 
 Close pull request and comment `Merged.`
 
-[Introspect]: http://blog.heroku.com/archives/2011/6/24/the_new_heroku_3_visibility_introspection/
 
 Set Up Production Environment
 -----------------------------
@@ -129,5 +97,3 @@ Set Up Production Environment
   database outage occurs, Heroku can use the follower to get your app back up
   and running faster.
 
-[Heroku Follower]: https://devcenter.heroku.com/articles/improving-heroku-postgres-availability-with-followers
-[`Procfile`]: https://devcenter.heroku.com/articles/procfile
