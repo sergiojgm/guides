@@ -3,7 +3,6 @@ Protocol
 
 Guides for getting things done.
 
-* [Communication](protocol/communication)
-* [Git](protocol/git)
-* [Rails](protocol/rails)
-* [Open Source](protocol/open-source)
+* [Git](protocol/git/README.md)
+* [Rails](protocol/rails/README.md)
+* [Product Review](protocol/product-review/README.md)

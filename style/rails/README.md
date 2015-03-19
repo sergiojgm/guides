@@ -20,7 +20,7 @@ Rails
 * Use the default `render 'partial'` syntax over `render partial: 'partial'`.
 * Use `link_to` for GET requests, and `button_to` for other HTTP verbs.
 
-[order-associations]: /style/rails/sample.rb#L2-L4
+[order-associations]: style/rails/sample.rb#L2-L4
 [`app/views/application`]: http://asciicasts.com/episodes/269-template-inheritance
 
 Migrations
