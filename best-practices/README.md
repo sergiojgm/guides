@@ -215,7 +215,7 @@ Sass
 Browsers
 --------
 
-* Don't support versions of Internet Explorer before IE11.
+* Don't support versions of Internet Explorer before IE10.
 
 Shell
 -----
