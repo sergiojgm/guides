@@ -54,13 +54,7 @@ If necessary, add new environment variables.
 
 
 Deploy to
-[NetAccess](http://vladigleba.com/blog/2014/03/14/deploying-rails-apps-part-2-setting-up-the-server/) straging
-
-    git push staging
-
-
-Deploy to production.
-Follow the same steps from staging tp production
+deployment tools will be provided soon by Carlos
 
 
 Close pull request and comment `Merged.`

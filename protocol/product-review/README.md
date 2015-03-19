@@ -19,9 +19,11 @@ have them review the changes in person.
 
 Screencast
 ----------
-
+Use [Licecap] to share a screencast gif in the project's [Slack]
+channel.
 Use [ScreenHero] to share a screencast gif in the project's [Slack] channel.
 
+[Licecap]: http://www.cockos.com/licecap/
 [ScreenHero]: http://www.screenhero.com/
 [Slack]: https://slack.com/
 
