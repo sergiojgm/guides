@@ -12,18 +12,17 @@ style guide violations.
 In addition to the general guidelines below, we also have the following more
 detailed, language/framework-specific style guides:
 
-* [CoffeeScript](coffeescript)
-* [ERb](erb)
-* [Git](git)
-* [Haskell](haskell)
-* [HTML](html)
-* [JavaScript](javascript)
-* [Python](python)
-* [Rails](rails)
-* [Ruby](ruby)
-* [Sass](sass)
-* [Shell](shell)
-* [Testing](testing)
+* [CoffeeScript](coffeescript/README.md)
+* [ERb](erb/README.md)
+* [Git](git/README.md)
+* [HTML](html/README.md)
+* [JavaScript](javascript/README.md)
+* [Python](python/README.md)
+* [Rails](rails/README.md)
+* [Ruby](ruby/README.md)
+* [Sass](sass/README.md)
+* [Shell](shell/README.md)
+* [Testing](testing/README.md)
 
 Formatting
 ----------

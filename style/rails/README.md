@@ -20,7 +20,7 @@ Rails
 * Use the default `render 'partial'` syntax over `render partial: 'partial'`.
 * Use `link_to` for GET requests, and `button_to` for other HTTP verbs.
 
-[order-associations]: style/rails/sample.rb#L2-L4
+[order-associations]: sample.rb#L2-L4
 [`app/views/application`]: http://asciicasts.com/episodes/269-template-inheritance
 
 Migrations
@@ -31,7 +31,7 @@ Migrations
 * Set an empty string as the default constraint for non-required string and text
   fields. [Example][default example].
 
-[default example]: migration.rb#L6
+[default example](migration.rb#L6)
 
 Routes
 ------
