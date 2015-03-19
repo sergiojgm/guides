@@ -6,24 +6,12 @@ A guide for writing great web apps.
 Set Up Laptop
 -------------
 
-TODO: need to add carlos basecamp how its done
-Set up your laptop with [this script](https://github.com/thoughtbot/laptop)
+Set up your laptop with [mac](http://www.carlosespejo.com/2015/01/12/kick-off-2015-with-a-fresh-install.html)
+Set up PG with
+[ubuntu](https://basecamp.com/2584938/projects/6492261/messages/37909485)
+If you are new to rails env then go through [rails
+tutorial](http://guides.rubyonrails.org/getting_started.html)
 
-and [these dotfiles](https://github.com/thoughtbot/dotfiles).
-
-Create App
-----------
-
-TODO: we dont use suspenders
-Get Suspenders.
-
-    gem install suspenders
-
-Create the app.
-
-    suspenders app --heroku true --github organization/app
-
-like Heroku's [Cedar](https://devcenter.heroku.com/articles/cedar/) stack.
 
 Git Protocol
 ------------
@@ -64,25 +52,15 @@ View a list of new commits. View changed files.
 
 If necessary, add new environment variables.
 
-    heroku config:add NEW_VARIABLE=value --remote staging
 
-Deploy to [Heroku](https://devcenter.heroku.com/articles/quickstart) staging.
+Deploy to
+[NetAccess](http://vladigleba.com/blog/2014/03/14/deploying-rails-apps-part-2-setting-up-the-server/) straging
 
     git push staging
 
-If necessary, run migrations and restart the dynos.
-
-    heroku run rake db:migrate --remote staging
-    heroku restart --remote staging
-
-[Introspect] to make sure everything's ok.
-
-    watch heroku ps --remote staging
-
-Test the feature in browser.
 
 Deploy to production.
-TODO: point to basecamp
+Follow the same steps from staging tp production
 
 
 Close pull request and comment `Merged.`
