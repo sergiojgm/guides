@@ -3,13 +3,13 @@ Guides
 
 Guides for getting things done, programming well, and programming in style.
 
-* [Protocol](protocol)
-  * [Git](protocol/git)
-  * [Rails](protocol/rails)
-  * [Product Review](protocol/product-review)
-* [Code Review](code-review)
-* [Best Practices](best-practices)
-* [Style](style)
+* [Protocol](protocol/README.md)
+  * [Git](protocol/git/README.md)
+  * [Rails](protocol/rails/README.md)
+  * [Product Review](protocol/product-review/README.md)
+* [Code Review](code-review/README.md)
+* [Best Practices](best-practices/README.md)
+* [Style](style/README.md)
 
 High level guidelines:
 

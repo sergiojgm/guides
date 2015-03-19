@@ -16,17 +16,18 @@ tutorial](http://guides.rubyonrails.org/getting_started.html)
 Git Protocol
 ------------
 
-Follow the normal [Git Protocol](protocol/git).
+Follow the normal [Git Protocol](protocol/git/README.md).
 
 Product Review
 --------------
 
-Follow the normal [Product Review protocol](protocol/product-review).
+Follow the normal [Product Review
+protocol](protocol/product-review/README.md).
 
 Code Review
 -----------
 
-Follow the normal [Code Review guidelines](code-review). When reviewing others'
+Follow the normal [Code Review guidelines](code-review/README.md). When reviewing others'
 Rails work, look in particular for:
 
 * Review data integrity closely, such as migrations that make irreversible

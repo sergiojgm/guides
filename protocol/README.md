@@ -3,6 +3,6 @@ Protocol
 
 Guides for getting things done.
 
-* [Git](protocol/git)
-* [Rails](protocol/rails)
-* [Product Review](protocol/product-review)
+* [Git](protocol/git/README.md)
+* [Rails](protocol/rails/README.md)
+* [Product Review](protocol/product-review/README.md)
