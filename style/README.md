@@ -3,7 +3,8 @@ Style
 
 A guide for programming in style.
 
-Use [Hound] to automatically review your
+Use [Hound] to automatically review your (use rubocop if Hound is not a
+option)
 GitHub pull requests for
 style guide violations.
 
