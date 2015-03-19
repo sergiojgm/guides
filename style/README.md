@@ -15,7 +15,6 @@ detailed, language/framework-specific style guides:
 * [CoffeeScript](coffeescript/README.md)
 * [ERb](erb/README.md)
 * [Git](git/README.md)
-* [Haskell](haskell/README.md)
 * [HTML](html/README.md)
 * [JavaScript](javascript/README.md)
 * [Python](python/README.md)
