@@ -215,15 +215,7 @@ Sass
 Browsers
 --------
 
-* Don't support versions of Internet Explorer before IE9.
-
-Objective-C
------------
-
-* Setup new projects using [Liftoff](https://github.com/thoughtbot/liftoff) and
-  follow provided directory structure.
-* Prefer categories on `Foundation` classes to helper methods.
-* Prefer string constants to literals when providing keys or key paths to methods.
+* Don't support versions of Internet Explorer before IE10.
 
 Shell
 -----
@@ -280,24 +272,7 @@ In addition to Shell best practices,
 * Prefer process substitution over a pipe in `while read` loops.
 * Use `((` or `let`, not `$((` when you don't need the result
 
-Haskell
--------
 
-* Avoid partial functions (`head`, `read`, etc).
-* Compile code with `-Wall -Werror`.
-
-Ember
------
-
-* Avoid using `$` without scoping to `this.$` in views and components.
-* Prefer to make model lookup calls in routes instead of controllers (`find`,
-  `findAll`, etc.).
-* Prefer adding properties to controllers instead of models.
-* Don't use jQuery outside of views and components.
-* Prefer to use predefined `Ember.computed.*` functions when possible.
-* Use `href="#"` for links that have an action.
-* Prefer dependency injection through Ember initializers over globals on window
-  or namespaces.
 
 Testing
 
