@@ -12,6 +12,11 @@ Creating a Repo
     example
       group => Chimera
       projects => [coder, pipeline, .. ]
+* RND and prototype projects should be placed in prototype group. Do not
+  add them in main groups as seperate project
+    example
+      group => prototypes
+      projects => [csv-uploader, coder, spam-filter ..]
 
 Maintain a Repo
 ---------------
