@@ -6,8 +6,8 @@ A guide for programming within version control.
 Creating a Repo
 ---------------
 
-* all code should be placed in proper hierchy
-* purposed hierchy is Group > Project
+* All code should be placed in proper hierchy
+* Proposed hierchy is Group > Project
 * Project name should be meaning full
     example
       group => Chimera
