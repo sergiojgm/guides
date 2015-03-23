@@ -6,17 +6,9 @@ A guide for programming within version control.
 Creating a Repo
 ---------------
 
-* All code should be placed in proper hierchy
-* Proposed hierchy is Group > Project
-* Project name should be meaning full
-    example
-      group => Chimera
-      projects => [coder, pipeline, .. ]
-* RND and prototype projects should be placed in prototype group. Do not
-  add them in main groups as seperate project
-    example
-      group => prototypes
-      projects => [csv-uploader, coder, spam-filter ..]
+* Before creating a new repo, discuss the need with the team. Decide if a new repo is necessary or the code really belongs in an existing project.
+* Repo names should be lowercase and dashed, i.e. my-great-project. Prototypes, experiments, and other r&d projects should be placed in the prototypes group. We want to keep the product related groups clean; they should only contain production projects.
+
 
 Maintain a Repo
 ---------------
