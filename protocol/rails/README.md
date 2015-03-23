@@ -42,8 +42,8 @@ Rails work, look in particular for:
   is a related todo in the project management system to add it during the
   staging and production deploys.
 
-Deploy
-------
+Deployment
+----------
 
 View a list of new commits. View changed files.
 
@@ -51,22 +51,24 @@ View a list of new commits. View changed files.
     git log staging/master..master
     git diff --stat staging/master
 
-If necessary, add new environment variables.
+
+What gets shipped into production & tagged
+
+* Master branch should only contain code thats production ready.
+* Your code must be environment aware ex: Rails has configurations for
+  development and production. Which makes sure that when your running
+the project locally your not pointing to production databases, api's,
+etc.
+* Deployments will only pull from master and you only tag the master branch after
+determining that the deployment was successful and production is not
+broken.
 
 
-Deploy to
-deployment tools will be provided soon by Carlos
 
 
-Close pull request and comment `Merged.`
 
 
 Set Up Production Environment
 -----------------------------
 
-* Make sure that your [`Procfile`] is set up to run Unicorn.
-* Make sure the PG Backups add-on is enabled.
-* Create a read-only [Heroku Follower] for your production database. If a Heroku
-  database outage occurs, Heroku can use the follower to get your app back up
-  and running faster.
-
+deployment tools will be provided soon by Carlos
