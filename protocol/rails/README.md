@@ -57,7 +57,7 @@ What gets shipped into production & tagged
 * Master branch should only contain code thats production ready.
 * Your code must be environment aware ex: Rails has configurations for
 development and production. Which makes sure that when your running
-the project locally your not pointing to production databases, api's,
+the project locally you're not pointing to production databases, API's,
 etc.
 * Deployments will only pull from master and you only tag the master branch after
 determining that the deployment was successful and production is not
