@@ -63,7 +63,7 @@ cohesive commits with good messages:
 
 Share your branch.
 
-    git push origin <branch-name>
+    git push --force origin <branch-name>
 
 Submit a [GitHub pull request].
 
