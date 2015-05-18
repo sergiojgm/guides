@@ -65,6 +65,14 @@ Share your branch.
 
     git push --force origin <branch-name>
 
+***Note:***
+
+You only need to force push when your branch is already shared and the following is true:
+* you rebased to squash commits
+* you merged in some last minute changes from master
+
+But never ever force push your code onto someone elses branch or master. This action will result in tremendous data loss.
+
 Submit a [GitHub pull request].
 
 Ask for a code review in the project's chat room and post the link to
