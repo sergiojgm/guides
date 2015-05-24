@@ -60,6 +60,8 @@ If you've created more than one commit, use a rebase to squash them into
 cohesive commits with good messages:
 
     git rebase -i origin/master
+    
+Article that explains [combining multiple commits into one using git rebase](http://feeding.cloud.geek.nz/posts/combining-multiple-commits-into-one/).
 
 Share your branch.
 
