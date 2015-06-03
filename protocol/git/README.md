@@ -120,7 +120,11 @@ It also makes it possible to [find the pull request] that brought in your change
     git diff --stat origin/master
     git checkout master
     git merge <branch-name> --ff-only
-    git push
+
+If there was no issues after the merge run the test cases
+
+    rspec
+    git push #if all test cases passed
 
 Delete your remote feature branch.
 
